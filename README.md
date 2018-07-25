@@ -11,19 +11,25 @@
 kubectl create -f elasticsearch-service.yaml
 ```
 ```
-graylog-service.yaml
+kubectl create -f graylog-service.yaml
 ```
 ```
-graylog-deployment.yaml
+kubectl create -f graylog-deployment.yaml
 ```
 ```
-mongo-service.yaml
+kubectl create -f mongo-service.yaml
 ```
 ```
-mongo-deployment.yaml
+kubectl create -f mongo-deployment.yaml
 ```
 
 ### 2. Forward port 9000 
 ```
  kubectl port-forward graylog-0 9000:9000
+```
+### Verify ###
+
+```
+kubectl get pods,srv
+
 ```
