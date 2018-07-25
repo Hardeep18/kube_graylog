@@ -1,5 +1,5 @@
 # Kube_graylog_pod
-# graylog cluster in kubernetes
+
 # Steps to install graylog cluster 
 
 
