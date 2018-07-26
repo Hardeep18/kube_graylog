@@ -30,6 +30,6 @@ kubectl create -f mongo-deployment.yaml
 ### Verify ###
 
 ```
-kubectl get pods,srv
+kubectl get pods,svc
 
 ```
